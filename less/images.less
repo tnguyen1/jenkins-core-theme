@@ -34,7 +34,7 @@
   .icon-img('../node_modules/jenkins-core-theme/images/warning.svg', @color-yellow);
 }
 
-[src$='grey.png'], [src$='aborted.png'], [src$='nobuilt.png'], [src$='disabled.png'] {
+[src$='grey.png'], [src$='aborted.png'], [src$='disabled.png'] {
   .icon-img('../node_modules/jenkins-core-theme/images/remove_circle.svg', @color-grey);
 }
 
@@ -198,6 +198,18 @@
   .icon-img('../node_modules/jenkins-core-theme/images/info_outline.svg', @color-grey);
 }
 
+.icon-workflow-stage.icon-md {
+  .icon-img('../node_modules/jenkins-core-theme/images/magnify.svg', @color-grey);
+}
+
+.icon-redo {
+  .icon-img('../node_modules/jenkins-core-theme/images/redo.svg', @color-grey);
+}
+
+.icon-nobuilt {
+  .icon-img('../node_modules/jenkins-core-theme/images/checkbox-blank-circle-outline.svg', @color-grey);
+}
+
 .icon-stop {
   .icon-img('../node_modules/jenkins-core-theme/images/stop.svg', @color-grey);
 }
@@ -281,7 +293,7 @@
 [src$='red.png'],
 [src$='blue.png'],
 [src$='yellow.png'],
-[src$='grey.png'], [src$='aborted.png'], [src$='nobuilt.png'], [src$='disabled.png'],
+[src$='grey.png'], [src$='aborted.png'], [src$='disabled.png'],
 .icon-health-80plus,
 .icon-health-60to79,
 .icon-health-40to59,
@@ -323,6 +335,9 @@
 .icon-save, [src$='/save.png'],
 .icon-package, [src$='package.gif'],
 .icon-search, [src$='search.png'],
+.icon-workflow-stage.icon-md,
+.icon-redo,
+.icon-nobuilt,
 .icon-stop,
 [src$='/move.png'],
 [src$='/atom.gif'],
